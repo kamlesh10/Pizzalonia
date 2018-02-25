@@ -8,7 +8,7 @@ namespace Pizzalonia.Models
         public Pizza(string name, Crust crust, IEnumerable<Topping> toppings)
         {
             Name = name;
-            Crust = Crust;
+            Crust = crust;
             Toppings = toppings.ToList();
         }
 
